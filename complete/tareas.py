@@ -5,7 +5,7 @@ root.geometry("296x265")
 
 listaTareas = []
 
-def añadirTarea ():
+def añadirTarea():
     tarea = entrada.get()
     listaTareas.append(tarea)
     entrada.delete(0, tk.END)
